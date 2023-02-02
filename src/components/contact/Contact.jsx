@@ -8,12 +8,15 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_2bdeo1c', 'template_a0lt8zo', form.current, 'KGGfGE5UdHCYJK_ka')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    emailjs.
+        sendForm(
+            'service_2bdeo1c', 
+            'template_a0lt8zo', 
+            form.current, 
+            'KGGfGE5UdHCYJK_ka')
+
+      e.target.reset()
+      
   };
   return (
     <section className="contact section" id="contact">
