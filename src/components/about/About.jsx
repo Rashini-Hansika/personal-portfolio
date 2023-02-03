@@ -16,7 +16,7 @@ const About = () => {
             <div className="about__data">
                 <Info /> 
 
-                <p className="about__description">Info eke mokak hri dapam methanatahgajcccccccc qdeeeecget gvrwvg acwq fwac</p>
+                <p className="about__description">I am an undergraduate student at SLIIT who tries to complete anytask in the best and most effective way by using the least resourcesand under any pressure. I am willing to learn new things and keepmyself up to date.</p>
 
                 <a download="Rashini Hansika_CV" href={CV} className="button button--flex">Download CV
                 <svg
